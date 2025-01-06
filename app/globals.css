@@ -2,3 +2,83 @@
 @tailwind components;
 @tailwind utilities;
 
+.banner_top {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 160px;
+    background-color: #0872B9;
+    color: white;
+}
+
+.banner_top>div {
+    display: flex;
+    align-items: center;
+}
+
+.banner_top1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-right: 22px;
+}
+
+.banner_top2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-left: 22px;
+    border-left: 1px;
+}
+
+.banner_top3 {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.banner_lower {
+    display: flex;
+    justify-content: space-between;
+    padding: 33px 163px;
+    background-color: #F4F8FC;
+    border: 2px solid #F4F8FC;
+}
+
+.banner_lower1 {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.main_banner {
+    display: flex;
+    padding-left: 161px;
+}
+
+.main_banner1 {
+    margin-top: 218px;
+}
+
+.h1 {
+    color: #000;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main_banner2 {
+    width: 882px;
+    height: 655px;
+}
+
+.main_banner1 p {
+    margin-top: 26px;
+}
+
+.main_banner button {
+    border-radius: 8px;
+    background: #0872B9;
+    padding: 18px 32px;
+    color: white;
+    margin-top: 40px;
+}
